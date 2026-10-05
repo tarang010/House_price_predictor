@@ -1,0 +1,17 @@
+snowflake:
+  user: TIWARI010
+  password: Skates@Champion121
+  account: SBPLOBQ-TY14646
+  warehouse: COMPUTE_WH
+  database: HOUSE_PRICE_DB
+  schema: RAW
+  table: HOUSE_DATA
+
+data:
+  target_column: price
+  test_size: 0.2
+  random_state: 42
+
+mlflow:
+  tracking_uri: http://127.0.0.1:5000
+  experiment_name: HousePricePrediction
