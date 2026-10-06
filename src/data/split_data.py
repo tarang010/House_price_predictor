@@ -6,7 +6,7 @@ df = pd.read_csv(
     "data/processed/processed_house_data.csv"
 )
 
-target = "price"
+target = "PRICE"
 
 X = df.drop(columns=[target])
 y = df[target]
