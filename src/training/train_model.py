@@ -35,7 +35,7 @@ best_name = None
 
 for name, info in model_cfg["models"].items():
 
-    if not info["enabled"\]:
+    if not info["enabled"]:
         continue
 
     model = get_model(
