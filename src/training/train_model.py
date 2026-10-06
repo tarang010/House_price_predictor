@@ -38,10 +38,7 @@ for name, info in model_cfg["models"].items():
     if not info["enabled"]:
         continue
 
-    model = get_model(
-        name,
-        info["params"]
-    )
+    model = get_model(name, info["params"])
 
     with mlflow.start_run(run_name=name):
 

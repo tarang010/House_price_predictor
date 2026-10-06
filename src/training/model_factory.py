@@ -10,4 +10,4 @@ def get_model(name, params):
         "XGBoost": xgb.XGBRegressor
     }
 
-    return model_map**params
+    return model_map*params
